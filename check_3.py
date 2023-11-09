@@ -5,9 +5,7 @@ import numpy as np
 from torchvision.utils import save_image
 from tqdm import tqdm
 from torch import autocast, inference_mode
-import torch
 
-# from all_diffusions import DDIMScheduler
 
 model_id = "google/ddpm-celebahq-256"
 # load model and scheduler
