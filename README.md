@@ -1,0 +1,1 @@
+python -m pip install diffusers==0.14.0
